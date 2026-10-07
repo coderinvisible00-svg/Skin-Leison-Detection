@@ -51,15 +51,6 @@ The dataset is heavily imbalanced (most images are nevi), so training uses class
 | Melanoma recall | _fill in_ |
 
 
-## Project structure
-
-```
-skin-cancer-app/
-  training/        Kaggle training script / notebook
-  backend/         FastAPI app (main.py, requirements.txt, model/)
-  frontend/        React (Vite) dashboard
-  docs/            Screenshots
-```
 
 ## API
 
