@@ -37,7 +37,7 @@ The dataset is heavily imbalanced (most images are nevi), so training uses class
 
 ## Method
 
-1. Split by `lesion_id` (about 67/17/17 train/val/test) so the same lesion never appears in two splits.
+1. Split by `lesion_id` (about 80/10/10 train/val/test) so the same lesion never appears in two splits.
 2. Pretrained EfficientNet-B0 with the classifier head replaced for 7 classes.
 3. Augmentation: flips, rotation, colour jitter. AdamW optimizer, cosine learning-rate schedule, mixed precision.
 4. Best checkpoint chosen by validation macro-F1; final numbers reported on the held-out test set.
