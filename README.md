@@ -60,6 +60,16 @@ The dataset is heavily imbalanced (most images are nevi), so training uses class
 | GET | `/metrics` | Training and test results |
 | POST | `/predict` | Multipart image upload; returns prediction and class probabilities |
 
+## Dashboard
+<img width="744" height="438" alt="project_image1" src="https://github.com/user-attachments/assets/eeaa8fb8-5e11-4c0b-9e4f-27f4bcaf3252" />
+
+Image uploading and Prediction in dashboard.
+
+
+<img width="665" height="436" alt="project_image2" src="https://github.com/user-attachments/assets/6feb2d5b-bd12-402f-8350-7d942fffe366" />
+
+Model performance showed in dashboard. 
+
 ## Limitations
 
 - Trained on one dataset of dermatoscopic images; phone photos or other skin tones and body sites may perform much worse.
@@ -76,3 +86,7 @@ The dataset is heavily imbalanced (most images are nevi), so training uses class
 ## Acknowledgements
 
 Tschandl et al., HAM10000 dataset. Built with PyTorch, FastAPI, React and Recharts.
+
+
+
+
